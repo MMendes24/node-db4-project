@@ -38,4 +38,16 @@ router.get('/:id/steps', (req, res) => {
     })
 })
 
+router.get('/ingredients/:id/recipes', (req, res) => {
+    const { id } = req.params;
+
+    Recipes.getIngredientRecipes(id)
+    .then(thenRes => {
+        res.status(200).json(thenRes)
+    })
+    .catch(error => {
+        console.error("Yeah this ain't it chief")
+    })
+})
+
 module.exports = router
