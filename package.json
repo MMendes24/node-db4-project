@@ -1,0 +1,19 @@
+{
+  "name": "db4-project",
+  "version": "1.0.0",
+  "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+  "main": "knexfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMendes24/node-db4-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMendes24/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/MMendes24/node-db4-project#readme"
+}
